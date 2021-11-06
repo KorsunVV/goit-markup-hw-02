@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Roboto','Raleway';
+    font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
     font-weight: 400;
 }
@@ -13,8 +13,9 @@ a {
     text-decoration: none;
 }
 
-.button {
+button {
     cursor: pointer;
+    font-family: inherit;
 }
 
 .list {
@@ -218,4 +219,7 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+}
+.projects li{
+    background-color: var(--bg-nav-color);
 }
