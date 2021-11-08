@@ -101,7 +101,7 @@ button {
     color: var(--bg-nav-color);
 }
 
-.hero > .button {
+.hero .hero-button {
     background-color: var(--accent-color);
     color: var(--bg-nav-color);
     font-weight: bold;
@@ -195,6 +195,7 @@ button {
 }
 
 /* Портфолио */
+
 .filters .button {
     background-color: var(--filter-color);
     font-weight: bold;
